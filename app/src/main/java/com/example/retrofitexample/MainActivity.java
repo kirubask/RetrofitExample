@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<List<Hero>> call, Response<List<Hero>> response) {
                 List<Hero> heroes = response.body();
-//                String[] heroesName = new String[heroes.size()];
+//                String[] heroesName = new String[heroes.size()];`
 //                for (int i = 0; i < heroes.size(); i++) {
 //
 //                    heroesName[i] = heroes.get(i).getName();
